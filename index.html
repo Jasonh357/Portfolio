@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/img/logo-blanco.jpg" type="image/jpg">
+
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!--Bootstrap-icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!--Css-->
+  <link rel="stylesheet" href="style.css">
+  <!-- Fuente -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=PT+Sans&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="nav-img" src="./img/logo.jpg" alt="" width="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+          aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#sobre"> Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Seccion Hero -->
+
+  <section class="hero align-items-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <img class="hero-imagen-desarrollador" src="./img/foto.png" alt="" id="letra">
+      <h1>Hola, Soy <span class="nombre-editado">Jason Hernández</span></h1>
+      <h2>Desarrollador de sitios web</h2>
+    </div>
+    <svg id="sobre" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,128L80,122.7C160,117,320,107,480,133.3C640,160,800,224,960,224C1120,224,1280,160,1360,128L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+
+  <!-- Sobre mí -->
+
+  <section class=" sobre-mi seccion-oscura">
+
+    <div class="contenedor">
+      <div class="seccion-texto">
+        <h2 class="seccion-titulo ">Conoce Sobre mí</h2>
+        <p class="seccion-parrafo">Mi nombre es Mario Jason Hernández Flores, tengo 24 años y vivo en El salvador. Soy
+          una persona muy apasionada con el deseo de adquirir nuevos conocimientos día a día. Además, me considero una
+          persona muy trabajadora que le gusta alcanzar siempre sus objetivos planteados, a pesar de no tener mucha
+          experiencia en el área laboral me siento capaz de poder elaborar todas las tareas que se me pongan debido a
+          que puedo aprender y adaptarme muy rápido a diferentes situaciones.</p>
+      </div>
+      <div class="seccion-texto">
+        <h2 class="seccion-titulo ">Skills</h2>
+        <div class="seccion-skills">
+          <img src="img/html-5 (1).png" alt="">
+          <img src="img/css-3 (1).png" alt="">
+          <img src="img/js.png" alt="">
+        </div>
+        <div class="seccion-skills">
+          <i class="bi bi-bootstrap-fill icono-bootstrap"></i>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#000" fill-opacity="1"
+      d="M0,256L48,266.7C96,277,192,299,288,282.7C384,267,480,213,576,170.7C672,128,768,96,864,117.3C960,139,1056,213,1152,250.7C1248,288,1344,288,1392,288L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+    </path>
+  </svg>
+  <!-- Mis proyectos -->
+
+  <section class="seccion-proyectos d-flex flex-column" id="proyectos">
+
+    <h2 class="titulo-proyectos">Mis Proyectos</h2>
+    <div class="container text-center contenedor-proyectos">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img class="img-proyecto" src="img/proyecto1.jpg" alt="">
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <a href="https://github.com/Jasonh357/Portafolio" target="_blank" rel="noopener noreferrer">
+                <button type="button" class="btn btn-primary btn-git"><i class="bi bi-github"></i>Repositorio</button>
+              </a>
+              <a href="https://jasonh357.github.io/Portafolio/" target="_blank" rel="noopener noreferrer">
+                <button type="button" class="btn btn-primary btn-proyecto"><i class="bi bi-laptop"></i>Proyecto</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img class="img-proyecto" src="img/proyecto2.jpg" alt="">
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <a href="https://github.com/Jasonh357/Calculadora.git" target="_blank" rel="noopener noreferrer">
+                <button type="button" class="btn btn-primary btn-git"><i class="bi bi-github"></i>Repositorio</button>
+              </a>
+              <a href="https://calculadora-lime-eight.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <button type="button" class="btn btn-primary btn-proyecto"><i class="bi bi-laptop"></i>Proyecto</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+
+  <section class="contacto" id="contacto">
+    <div class="container">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 ">
+            ¡Hablemos!
+          </div>
+          <div class="col-12 col-md-4 descripcion">
+            Contáctame para iniciar tu proyecto de desarrollo web.
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:mariojasonh@gmail.com">
+              <button type="button" class="btn-contacto">
+                Contacto
+                <i class="bi bi-envelope-check-fill"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="img/logo-blanco.jpg" alt="">
+    <p class="footer-texto text-center">Aprendo y creo todos los dias <br> Creemos proyectos juntos</p>
+    <div class="iconos-redes d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://github.com/Jasonh357" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/jason-hernandez-4b4340182/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="mailto:mariojasonh@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#000" fill-opacity="1"
+        d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
