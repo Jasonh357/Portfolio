@@ -2,30 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
-
 .navbar {
     padding: 2rem;
     background-color: #000;
 }
-
 .nav-link {
     color: #fff;
     font-family: 'PT Sans', sans-serif;
     font-size: 25px;
     font-weight: 500;
 }
-
 .nav-link:hover {
     color: #01bda7;
     text-shadow: 0 4px 8px #01bda7;
 }
-
 .navbar-collapse {
     flex-grow: 0;
 }
-
 
 /* Estilo Generale */
 
@@ -35,7 +29,6 @@ section {
     align-items: center;
     justify-content: center;
 }
-
 h1 {
     font-size: 2.5rem;
     color: #fff;
@@ -44,32 +37,24 @@ h1 {
     animation: animation-right 1s forwards;
 }
 
-
-
 /* Estilos hero */
+
 .hero {
     background: linear-gradient(181deg, #000 35%, #2e006e 100%);
 }
-
 .hero-principal {
     padding: 1.5rem;
-
 }
-
 .hero-imagen-desarrollador {
     width: 400px;
     height: 400px;
     margin: 20px;
     border-radius: 0 0 25% 25%;
     animation: animation-left 1s forwards;
-
 }
-
 .hero-imagen-desarrollador:hover {
     filter: drop-shadow(0px 0px 25px #2e006e);
-
 }
-
 .hero-principal h2 {
     font-size: 1.5rem;
     color: #fff;
@@ -78,9 +63,6 @@ h1 {
     animation: animation-left 1s forwards;
     text-align: center;
 }
-
-
-
 .nombre-editado:hover {
     color: #01bda7;
     text-shadow: 0 4px 10px;
@@ -95,22 +77,18 @@ h1 {
     padding: 0 25px;
     align-items: center;
 }
-
 .contenedor {
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
     animation: animation-left 1s forwards;
-
 }
-
 .seccion-titulo {
-    padding: 15px 15px 0 15px;
+    padding: 15px 15px 5px 15px;
     background: linear-gradient(181deg, #000 35%, #2e006e 100%);
     color: #fff;
     font-family: 'Concert One', sans-serif;
 }
-
 .seccion-texto {
     width: 50%;
     display: flex;
@@ -118,82 +96,64 @@ h1 {
     justify-content: flex-start;
     margin-right: 25px;
     border: 3px solid;
-
-
 }
-
 .seccion-parrafo {
     padding: 15px;
     color: #000;
     font-family: 'PT Sans', sans-serif;
 }
-
 .seccion-skills {
     display: flex;
     justify-content: space-evenly;
     padding: 15px 0;
 }
-
 .icono-bootstrap {
     font-size: 64px;
     color: #2e006e;
 }
-
 
 /* Estilos Proyectos */
 
 .seccion-proyectos {
     background: #000;
 }
-
 .titulo-proyectos {
     padding: 0 15px 15px 15px;
-
     color: #fff;
     font-family: 'Concert One', sans-serif;
 }
-
 .contenedor-proyectos {
     margin-bottom: 10rem;
     animation: animation-right 1s forwards;
 }
-
 .img-proyecto {
     width: 80%;
     height: 100%;
 }
-
 .btn-group {
     width: 100%;
     padding: 15px;
     gap: 25px;
     justify-content: center;
 }
-
 .btn-git {
-
     background: #003265;
     border: 2px solid #003265;
     border-radius: 0;
 }
-
 .btn-git:hover {
     background: #01bda7;
     border: 2px solid #01bda7;
 }
-
 .btn-proyecto {
-
     background: #2e006e;
     border: 2px solid #2e006e;
     border-radius: 0;
 }
-
 .btn-proyecto:hover {
     background-color: #01bda7;
     border: 2px solid #01bda7;
 }
-
 .bi-github,
 .bi-laptop {
     font-size: 15px;
@@ -208,14 +168,12 @@ h1 {
     padding: 20px;
     animation: animation-up 1s forwards;
 }
-
 .rectangulo {
     margin-top: -5rem;
     background: linear-gradient(90deg, #be0c57 30%, #2e006e 100%);
     border-radius: 10px;
     box-shadow: 0px 1px 4px 1px #fff;
 }
-
 .contacto .row {
     width: 100%;
     display: flex;
@@ -224,13 +182,11 @@ h1 {
     font-size: 25px;
     color: white;
 }
-
 .descripcion {
     color: white;
     font-size: 1.2rem;
     font-family: 'PT Sans', sans-serif;
 }
-
 .btn-contacto {
     color: white;
     font-weight: bold;
@@ -241,23 +197,19 @@ h1 {
     border-radius: 100px;
     transition: all 0.2s ease-in-out;
 }
-
 .btn-contacto:hover {
     cursor: pointer;
     background: white;
     color: #000;
 }
-
 .contacto .btn-contacto:hover i {
     color: #000;
 }
-
 .contacto .btn-contacto i {
     color: white;
     font-size: 1.3rem;
     transition: all 0.2s ease-in-out;
 }
-
 
 /* Footer */
 
@@ -266,14 +218,12 @@ h1 {
     width: 80px;
     margin: 10px;
 }
-
 .footer-texto {
     font-size: 1.5rem;
     padding: 20px;
     margin-bottom: 30px;
     font-family: 'PT Sans', sans-serif;
 }
-
 .iconos-redes a {
     width: 50px;
     height: 50px;
@@ -286,22 +236,18 @@ h1 {
     border-radius: 50%;
     transition: all 0.2s ease-in;
 }
-
 .iconos-redes a:hover {
     background-color: #2e006e;
     color: white;
 }
-
 .iconos-redes i {
     color: #2e006e;
     font-size: 1.5rem;
     transition: all 0.2s ease-in;
 }
-
 .iconos-redes a:hover i {
     color: white;
 }
-
 
 @keyframes animation-left {
     from {
@@ -314,7 +260,6 @@ h1 {
         transform: translateX(0);
     }
 }
-
 @keyframes animation-right {
     from {
         opacity: 0;
@@ -326,7 +271,6 @@ h1 {
         transform: translateX(0);
     }
 }
-
 @keyframes animation-up {
     from {
         opacity: 0;
@@ -338,7 +282,6 @@ h1 {
         transform: translateY(0);
     }
 }
-
 
 /* Responsivo */
 
@@ -365,13 +308,11 @@ h1 {
         height: 200px;
         width: 200px;
     }
-    
     .contenedor {
         display: flex;
         flex-direction: column;
         gap: 25px;
     }
-
     .seccion-texto {
         width: 100%;
     }
