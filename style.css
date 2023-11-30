@@ -76,7 +76,7 @@ h1 {
     font-family: 'PT Sans', sans-serif;
     position: relative;
     animation: animation-left 1s forwards;
-
+    text-align: center;
 }
 
 
@@ -144,8 +144,6 @@ h1 {
 
 .seccion-proyectos {
     background: #000;
-
-
 }
 
 .titulo-proyectos {
@@ -156,19 +154,17 @@ h1 {
 }
 
 .contenedor-proyectos {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
     margin-bottom: 10rem;
     animation: animation-right 1s forwards;
 }
 
 .img-proyecto {
-    width: 300px;
+    width: 80%;
+    height: 100%;
 }
 
 .btn-group {
-    width: 350px;
+    width: 100%;
     padding: 15px;
     gap: 25px;
     justify-content: center;
@@ -353,9 +349,23 @@ h1 {
         justify-content: center;
         text-align: center;
     }
+    .contenedor{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+        width: 100%;
+    }
+    .seccion-texto{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:425px) {
+    .hero-imagen-desarrollador{
+        height: 200px;
+        width: 200px;
+    }
+    
     .contenedor {
         display: flex;
         flex-direction: column;
